@@ -1,1 +1,1 @@
-# dental-wellness
+Dental wellness in Mumbai centers on preventive care, smile makeovers, and advanced oral surgery using modern technology. Top-tier clinics across the city offer services ranging from painless single-visit root canals to full-mouth implants. 
