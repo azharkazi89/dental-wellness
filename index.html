@@ -7,100 +7,135 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="font-sans text-gray-800">
+<body class="font-sans text-gray-800 bg-white">
 
 <!-- Navbar -->
-<header class="flex justify-between items-center p-5 shadow bg-white sticky top-0 z-50">
+<header class="flex justify-between items-center px-6 py-4 bg-white/80 backdrop-blur-md shadow sticky top-0 z-50">
   <h1 class="text-2xl font-bold text-blue-600">Dental Wellness</h1>
   <nav class="space-x-6 hidden md:block">
-    <a href="#home">Home</a>
-    <a href="#services">Services</a>
-    <a href="#results">Results</a>
-    <a href="#contact">Contact</a>
+    <a href="#home" class="hover:text-blue-600">Home</a>
+    <a href="#services" class="hover:text-blue-600">Services</a>
+    <a href="#results" class="hover:text-blue-600">Results</a>
+    <a href="#contact" class="hover:text-blue-600">Contact</a>
   </nav>
 </header>
 
-<!-- Hero -->
-<section id="home" class="text-center py-20 bg-blue-50">
-  <h2 class="text-4xl font-bold mb-4">Healthy Smiles Start Here</h2>
-  <p class="mb-6">Advanced dental care with comfort & precision in Mumbai</p>
-  
-  <div class="space-x-4">
-    <a href="tel:07066232923" class="bg-blue-600 text-white px-6 py-3 rounded-lg">
-      Call Now
-    </a>
-    <a href="#contact" class="border border-blue-600 px-6 py-3 rounded-lg">
-      Book Appointment
-    </a>
-  </div>
-</section>
+<!-- HERO -->
+<section id="home" class="bg-gradient-to-r from-blue-600 to-teal-500 text-white py-24">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
-<!-- Services -->
-<section id="services" class="py-16 px-6">
-  <h3 class="text-3xl font-bold text-center mb-10">Our Services</h3>
-  
-  <div class="grid md:grid-cols-3 gap-8">
-    
-    <div class="p-6 shadow rounded-lg">
-      <h4 class="font-bold text-xl mb-2">Teeth Cleaning</h4>
-      <p>Professional cleaning for healthy gums and fresh breath.</p>
+    <div>
+      <h2 class="text-5xl font-bold leading-tight mb-6">
+        Smile Transformation<br>That Feels Effortless
+      </h2>
+
+      <p class="mb-6 text-lg text-blue-100">
+        Advanced, pain-free dental treatments in Lower Parel with real results.
+      </p>
+
+      <div class="flex gap-4 flex-wrap">
+        <a href="tel:07066232923" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow-lg">
+          Call Now
+        </a>
+
+        <a href="https://wa.me/917066232923" class="bg-green-500 px-6 py-3 rounded-full font-semibold shadow-lg">
+          WhatsApp
+        </a>
+      </div>
     </div>
 
-    <div class="p-6 shadow rounded-lg">
-      <h4 class="font-bold text-xl mb-2">Dental Implants</h4>
-      <p>Permanent solution for missing teeth with natural look.</p>
-    </div>
+    <div class="relative">
+      <img src="clinic.jpg" class="rounded-2xl shadow-2xl" alt="Clinic">
 
-    <div class="p-6 shadow rounded-lg">
-      <h4 class="font-bold text-xl mb-2">Root Canal</h4>
-      <p>Pain-free root canal treatments using modern techniques.</p>
-    </div>
-
-    <div class="p-6 shadow rounded-lg">
-      <h4 class="font-bold text-xl mb-2">Teeth Whitening</h4>
-      <p>Safe and effective whitening for a brighter smile.</p>
-    </div>
-
-    <div class="p-6 shadow rounded-lg">
-      <h4 class="font-bold text-xl mb-2">Dentures</h4>
-      <p>Comfortable and natural-looking complete/partial dentures.</p>
-    </div>
-
-    <div class="p-6 shadow rounded-lg">
-      <h4 class="font-bold text-xl mb-2">Smile Makeover</h4>
-      <p>Complete aesthetic transformation of your smile.</p>
+      <div class="absolute -bottom-6 -left-6 bg-white text-gray-800 px-4 py-3 rounded-xl shadow-xl">
+        ⭐ 500+ Happy Patients
+      </div>
     </div>
 
   </div>
 </section>
 
-<!-- Results (use your real images here) -->
-<section id="results" class="bg-gray-100 py-16 px-6">
-  <h3 class="text-3xl font-bold text-center mb-10">Before & After Results</h3>
+<!-- SERVICES -->
+<section id="services" class="py-20 bg-gradient-to-br from-gray-100 to-blue-50">
+  <h3 class="text-4xl font-bold text-center mb-12">Our Expertise</h3>
 
-  <div class="grid md:grid-cols-3 gap-6">
-    <img src="1.jpg" class="rounded-lg shadow" alt="Dental Result 1">
-    <img src="2.jpg" class="rounded-lg shadow" alt="Dental Result 2">
-    <img src="3.jpg" class="rounded-lg shadow" alt="Dental Result 3">
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+
+    <div class="bg-white/70 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <h4 class="text-xl font-bold mb-2">Teeth Whitening</h4>
+      <p>Bright, natural smile in a single visit.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <h4 class="text-xl font-bold mb-2">Dental Implants</h4>
+      <p>Permanent, natural-looking tooth replacement.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <h4 class="text-xl font-bold mb-2">Root Canal</h4>
+      <p>Pain-free treatment with modern technology.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <h4 class="text-xl font-bold mb-2">Dentures</h4>
+      <p>Comfortable and natural-looking dentures.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <h4 class="text-xl font-bold mb-2">Smile Makeover</h4>
+      <p>Complete aesthetic transformation.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+      <h4 class="text-xl font-bold mb-2">Teeth Cleaning</h4>
+      <p>Healthy gums and fresh breath.</p>
+    </div>
+
   </div>
+</section>
 
-  <p class="text-center mt-6 text-gray-600">
-    Real patient transformations at Dental Wellness
+<!-- RESULTS -->
+<section id="results" class="py-20 bg-white">
+  <h3 class="text-4xl font-bold text-center mb-12">Real Smile Transformations</h3>
+
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+
+    <div class="group relative overflow-hidden rounded-xl shadow-lg">
+      <img src="clinic1.jpg" class="group-hover:scale-110 transition duration-500">
+      <div class="absolute bottom-0 bg-black/60 text-white w-full p-4">
+        Before → After
+      </div>
+    </div>
+
+    <div class="group relative overflow-hidden rounded-xl shadow-lg">
+      <img src="4.jpg" class="group-hover:scale-110 transition duration-500">
+      <div class="absolute bottom-0 bg-black/60 text-white w-full p-4">
+        Smile Correction
+      </div>
+    </div>
+
+    <div class="group relative overflow-hidden rounded-xl shadow-lg">
+      <img src="3.jpg" class="group-hover:scale-110 transition duration-500">
+      <div class="absolute bottom-0 bg-black/60 text-white w-full p-4">
+        Denture Treatment
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-20 bg-gray-100 text-center px-6">
+  <h3 class="text-4xl font-bold mb-6">About Dental Wellness</h3>
+  <p class="max-w-2xl mx-auto text-lg">
+    We provide advanced, painless, and personalized dental care with a focus on comfort,
+    hygiene, and long-term oral health. Every smile we treat is a responsibility we take seriously.
   </p>
 </section>
 
-<!-- About -->
-<section class="py-16 px-6 text-center">
-  <h3 class="text-3xl font-bold mb-6">About Dental Wellness</h3>
-  <p class="max-w-2xl mx-auto">
-    At Dental Wellness, we focus on providing advanced, painless, and personalized dental care.
-    Our goal is to ensure every patient leaves with confidence and a healthy smile.
-  </p>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="bg-blue-50 py-16 px-6 text-center">
-  <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-blue-50 text-center px-6">
+  <h3 class="text-4xl font-bold mb-6">Visit Our Clinic</h3>
 
   <p class="mb-4">
     📍 Shop 3B, Akshay Building,<br>
@@ -109,27 +144,31 @@
     Lower Parel West, Mumbai - 400018
   </p>
 
-  <p class="mb-2">📞 070662 32923</p>
+  <p class="mb-2 text-lg">📞 070662 32923</p>
   <p class="mb-6">🕒 Open till 10 PM</p>
 
-  <a href="tel:07066232923" class="bg-blue-600 text-white px-6 py-3 rounded-lg">
-    Call Clinic
+  <a href="tel:07066232923"
+     class="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg">
+     Call Clinic
   </a>
 </section>
 
-<!-- Footer -->
+<!-- FOOTER -->
 <footer class="text-center py-6 text-gray-500">
   © 2026 Dental Wellness, Mumbai
 </footer>
-<a href="https://wa.me/917066232923?text=Hello%20Dental%20Wellness%2C%20I%20would%20like%20to%20book%20an%20appointment"
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/917066232923?text=Hello%20Dental%20Wellness%2C%20I%20want%20to%20book%20an%20appointment"
    target="_blank"
    class="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg flex items-center space-x-2 hover:bg-green-600">
 
   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
-    <path d="M20.52 3.48A11.82 11.82 0 0012.01 0C5.37 0 .01 5.36 0 12c0 2.11.55 4.17 1.6 5.99L0 24l6.2-1.63A11.9 11.9 0 0012.01 24C18.65 24 24 18.64 24 12a11.8 11.8 0 00-3.48-8.52zM12.01 22c-1.85 0-3.66-.5-5.24-1.45l-.37-.22-3.68.97.98-3.59-.24-.38A9.93 9.93 0 012.01 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.55-7.44c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15s-.77.97-.94 1.17c-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.46-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.08 3.18 5.03 4.46.7.3 1.25.48 1.68.62.7.22 1.34.19 1.85.12.56-.08 1.77-.72 2.02-1.41.25-.7.25-1.3.17-1.41-.08-.12-.27-.2-.57-.35z"/>
+    <path d="M20.52 3.48A11.82 11.82 0 0012.01 0C5.37 0 .01 5.36 0 12c0 2.11.55 4.17 1.6 5.99L0 24l6.2-1.63A11.9 11.9 0 0012.01 24C18.65 24 24 18.64 24 12a11.8 11.8 0 00-3.48-8.52z"/>
   </svg>
 
-  <span class="hidden md:inline">Chat on WhatsApp</span>
+  <span class="hidden md:inline">WhatsApp</span>
 </a>
+
 </body>
 </html>
