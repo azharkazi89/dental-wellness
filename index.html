@@ -3,189 +3,750 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dental Wellness - Dr. Namra Kazi | Mumbai</title>
+  <meta name="description" content="Dr. Namra Kazi's Dental Wellness Clinic in Lower Parel, Mumbai. Advanced painless dental treatments including implants, whitening, root canal, and smile makeovers. Book your appointment online today!">
+  <meta name="keywords" content="dentist in Lower Parel, dental clinic Mumbai, Dr Namra Kazi, teeth whitening, dental implants, root canal, smile makeover">
+  <meta name="author" content="Dental Wellness - Dr. Namra Kazi">
+  <meta name="theme-color" content="#10b981">
+  <meta property="og:title" content="Dental Wellness - Dr. Namra Kazi | Modern Dental Care in Mumbai">
+  <meta property="og:description" content="Advanced, painless dental treatments in Lower Parel. Book your appointment with Dr. Namra Kazi today!">
+  <meta property="og:type" content="business.business">
+  <meta property="og:url" content="https://dentalwellness.in">
+  <title>Dental Wellness - Dr. Namra Kazi | Best Dentist in Lower Parel, Mumbai</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="canonical" href="https://dentalwellness.in">
 </head>
 
 <body class="font-sans text-gray-800 bg-white">
 
-<!-- Navbar -->
-<header class="flex justify-between items-center px-6 py-4 bg-white/80 backdrop-blur-md shadow sticky top-0 z-50 border-b-2 border-emerald-100">
-  <h1 class="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">Dental Wellness</h1>
-  <nav class="space-x-6 hidden md:block">
-    <a href="#home" class="text-gray-700 hover:text-emerald-600 font-medium transition">Home</a>
-    <a href="#services" class="text-gray-700 hover:text-emerald-600 font-medium transition">Services</a>
-    <a href="#results" class="text-gray-700 hover:text-emerald-600 font-medium transition">Results</a>
-    <a href="#contact" class="text-gray-700 hover:text-emerald-600 font-medium transition">Contact</a>
-  </nav>
-</header>
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md shadow-lg z-50 border-b border-emerald-100">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+      <div class="w-10 h-10 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold">D</div>
+      <h1 class="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">Dental Wellness</h1>
+    </div>
+    
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="#services" class="text-gray-700 hover:text-emerald-600 transition font-medium">Services</a>
+      <a href="#why-us" class="text-gray-700 hover:text-emerald-600 transition font-medium">Why Us</a>
+      <a href="#testimonials" class="text-gray-700 hover:text-emerald-600 transition font-medium">Reviews</a>
+      <a href="#faq" class="text-gray-700 hover:text-emerald-600 transition font-medium">FAQ</a>
+      <a href="#book-appointment" class="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-6 py-2 rounded-full hover:shadow-lg transition font-semibold">Book Now</a>
+    </div>
 
-<!-- HERO -->
-<section id="home" class="bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 text-white py-24">
-  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+    <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+    </button>
+  </div>
 
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden bg-white border-t border-emerald-100">
+    <div class="px-6 py-4 space-y-3">
+      <a href="#services" class="block text-gray-700 hover:text-emerald-600 font-medium">Services</a>
+      <a href="#why-us" class="block text-gray-700 hover:text-emerald-600 font-medium">Why Us</a>
+      <a href="#testimonials" class="block text-gray-700 hover:text-emerald-600 font-medium">Reviews</a>
+      <a href="#faq" class="block text-gray-700 hover:text-emerald-600 font-medium">FAQ</a>
+      <a href="#book-appointment" class="block bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-4 py-2 rounded-full text-center font-semibold">Book Now</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="pt-32 pb-20 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
     <div>
-      <h2 class="text-5xl font-bold leading-tight mb-6">
-        Smile Transformation<br>That Feels Effortless
-      </h2>
-
-      <p class="mb-6 text-lg text-emerald-50">
-        Advanced, pain-free dental treatments in Lower Parel with real results.
+      <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+        Your Smile,<br><span class="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">Our Priority</span>
+      </h1>
+      <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+        Modern dental care without the anxiety. Dr. Namra Kazi brings expertise, compassion, and cutting-edge technology to every treatment.
       </p>
-
-      <div class="flex gap-4 flex-wrap">
-        <a href="tel:07066232923" class="bg-white text-emerald-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition">
-          Call Now
-        </a>
-
-        <a href="https://wa.me/917066232923" class="bg-emerald-400 hover:bg-emerald-300 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition">
-          WhatsApp
-        </a>
+      <div class="flex flex-col sm:flex-row gap-4 mb-8">
+        <a href="#book-appointment" class="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition text-center">Book Appointment</a>
+        <a href="tel:07066232923" class="border-2 border-emerald-500 text-emerald-600 px-8 py-4 rounded-full font-semibold hover:bg-emerald-50 transition text-center">Call Now: 7066232923</a>
+      </div>
+      <div class="grid grid-cols-3 gap-4 text-center">
+        <div>
+          <div class="text-3xl font-bold text-emerald-600">500+</div>
+          <div class="text-gray-600 text-sm">Happy Patients</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-teal-600">10+</div>
+          <div class="text-gray-600 text-sm">Years Experience</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-cyan-600">100%</div>
+          <div class="text-gray-600 text-sm">Painless Care</div>
+        </div>
       </div>
     </div>
 
     <div class="relative">
-      <img src="2.jpg" class="rounded-2xl shadow-2xl border-4 border-white/30" alt="Clinic">
-
-      <div class="absolute -bottom-6 -left-6 bg-white text-emerald-600 px-4 py-3 rounded-xl shadow-xl font-semibold">
-        ⭐ 50+ Happy Patients
+      <div class="absolute inset-0 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-3xl blur-2xl opacity-20"></div>
+      <img src="2.jpg" alt="Modern dental clinic setup" class="relative rounded-3xl shadow-2xl border-4 border-white">
+      <div class="absolute -bottom-8 -left-8 bg-white rounded-2xl shadow-xl p-6 max-w-xs">
+        <div class="flex items-center space-x-2 mb-2">
+          <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+        </div>
+        <p class="text-gray-700 font-semibold">"Best dental experience ever! Highly recommended."</p>
+        <p class="text-gray-600 text-sm mt-2">- Sarah M.</p>
       </div>
     </div>
-
   </div>
 </section>
 
-<!-- SERVICES -->
-<section id="services" class="py-20 bg-gradient-to-br from-emerald-50 via-cyan-50 to-teal-50">
-  <h3 class="text-4xl font-bold text-center mb-12 text-emerald-900">Our Expertise</h3>
-
-  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-
-    <div class="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition border border-emerald-100">
-      <div class="text-4xl mb-3">✨</div>
-      <h4 class="text-xl font-bold mb-2 text-emerald-700">Teeth Whitening</h4>
-      <p class="text-gray-700">Bright, natural smile in a single visit.</p>
+<!-- Trust Badges -->
+<section class="bg-white border-y border-emerald-100 py-8">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="space-y-2">
+        <div class="text-3xl">✓</div>
+        <p class="font-semibold text-gray-800">Certified Dentist</p>
+        <p class="text-gray-600 text-sm">ISO Certified Clinic</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-3xl">🔒</div>
+        <p class="font-semibold text-gray-800">100% Safe</p>
+        <p class="text-gray-600 text-sm">Sterilized Equipment</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-3xl">⚡</div>
+        <p class="font-semibold text-gray-800">Latest Tech</p>
+        <p class="text-gray-600 text-sm">Advanced Machinery</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-3xl">🕐</div>
+        <p class="font-semibold text-gray-800">Open Till 10 PM</p>
+        <p class="text-gray-600 text-sm">Easy Scheduling</p>
+      </div>
     </div>
-
-    <div class="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition border border-teal-100">
-      <div class="text-4xl mb-3">🦷</div>
-      <h4 class="text-xl font-bold mb-2 text-teal-700">Dental Implants</h4>
-      <p class="text-gray-700">Permanent, natural-looking tooth replacement.</p>
-    </div>
-
-    <div class="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition border border-cyan-100">
-      <div class="text-4xl mb-3">🌿</div>
-      <h4 class="text-xl font-bold mb-2 text-cyan-700">Root Canal</h4>
-      <p class="text-gray-700">Pain-free treatment with modern technology.</p>
-    </div>
-
-    <div class="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition border border-emerald-100">
-      <div class="text-4xl mb-3">😊</div>
-      <h4 class="text-xl font-bold mb-2 text-emerald-700">Dentures</h4>
-      <p class="text-gray-700">Comfortable and natural-looking dentures.</p>
-    </div>
-
-    <div class="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition border border-teal-100">
-      <div class="text-4xl mb-3">💎</div>
-      <h4 class="text-xl font-bold mb-2 text-teal-700">Smile Makeover</h4>
-      <p class="text-gray-700">Complete aesthetic transformation.</p>
-    </div>
-
-    <div class="bg-white/60 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition border border-cyan-100">
-      <div class="text-4xl mb-3">🌊</div>
-      <h4 class="text-xl font-bold mb-2 text-cyan-700">Teeth Cleaning</h4>
-      <p class="text-gray-700">Healthy gums and fresh breath.</p>
-    </div>
-
   </div>
 </section>
 
-<!-- RESULTS -->
-<section id="results" class="py-20 bg-gradient-to-b from-white to-emerald-50">
-  <h3 class="text-4xl font-bold text-center mb-12 text-emerald-900">Real Smile Transformations</h3>
-
-  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-
-    <div class="group relative overflow-hidden rounded-xl shadow-lg border-4 border-emerald-200 hover:border-emerald-500 transition">
-      <img src="5.jpg" class="group-hover:scale-110 transition duration-500 w-full h-64 object-cover">
-      <div class="absolute bottom-0 bg-gradient-to-t from-emerald-900/80 to-transparent text-white w-full p-4">
-        Before → After
-      </div>
+<!-- Services Section -->
+<section id="services" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Dental Services</h2>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">Comprehensive dental solutions tailored to your unique needs</p>
     </div>
 
-    <div class="group relative overflow-hidden rounded-xl shadow-lg border-4 border-teal-200 hover:border-teal-500 transition">
-      <img src="3.jpg" class="group-hover:scale-110 transition duration-500 w-full h-64 object-cover">
-      <div class="absolute bottom-0 bg-gradient-to-t from-teal-900/80 to-transparent text-white w-full p-4">
-        Smile Correction
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Service 1 -->
+      <div class="group bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl hover:shadow-2xl transition border border-emerald-100 hover:border-emerald-300">
+        <div class="text-5xl mb-4">✨</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Professional Whitening</h3>
+        <p class="text-gray-700 mb-4">Achieve a brighter smile in just one visit with our advanced whitening technology. Results last up to 6 months.</p>
+        <ul class="space-y-2 text-gray-600 mb-6">
+          <li>✓ Painless procedure</li>
+          <li>✓ Immediate results</li>
+          <li>✓ Safe for all teeth types</li>
+        </ul>
+        <p class="text-emerald-600 font-semibold">Starting from ₹5,000</p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="group bg-gradient-to-br from-teal-50 to-cyan-50 p-8 rounded-2xl hover:shadow-2xl transition border border-teal-100 hover:border-teal-300">
+        <div class="text-5xl mb-4">🦷</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Dental Implants</h3>
+        <p class="text-gray-700 mb-4">Permanent, natural-looking tooth replacement that restores your confident smile and chewing ability.</p>
+        <ul class="space-y-2 text-gray-600 mb-6">
+          <li>✓ Titanium implants</li>
+          <li>✓ 10-year warranty</li>
+          <li>✓ Lifetime support</li>
+        </ul>
+        <p class="text-teal-600 font-semibold">Starting from ₹25,000</p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="group bg-gradient-to-br from-cyan-50 to-emerald-50 p-8 rounded-2xl hover:shadow-2xl transition border border-cyan-100 hover:border-cyan-300">
+        <div class="text-5xl mb-4">🌿</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Root Canal Treatment</h3>
+        <p class="text-gray-700 mb-4">Pain-free root canal therapy using modern endodontic techniques. Save your natural tooth with precision.</p>
+        <ul class="space-y-2 text-gray-600 mb-6">
+          <li>✓ Painless procedure</li>
+          <li>✓ Modern technology</li>
+          <li>✓ High success rate</li>
+        </ul>
+        <p class="text-cyan-600 font-semibold">Starting from ₹8,000</p>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="group bg-gradient-to-br from-emerald-50 to-cyan-50 p-8 rounded-2xl hover:shadow-2xl transition border border-emerald-100 hover:border-emerald-300">
+        <div class="text-5xl mb-4">😊</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Dentures & Bridges</h3>
+        <p class="text-gray-700 mb-4">Custom-designed dentures and bridges for natural appearance and comfortable fit. Feel confident again.</p>
+        <ul class="space-y-2 text-gray-600 mb-6">
+          <li>✓ Custom fitting</li>
+          <li>✓ Natural appearance</li>
+          <li>✓ Durable materials</li>
+        </ul>
+        <p class="text-emerald-600 font-semibold">Starting from ₹12,000</p>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="group bg-gradient-to-br from-teal-50 to-emerald-50 p-8 rounded-2xl hover:shadow-2xl transition border border-teal-100 hover:border-teal-300">
+        <div class="text-5xl mb-4">💎</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Smile Makeover</h3>
+        <p class="text-gray-700 mb-4">Complete aesthetic transformation combining multiple treatments for your dream smile.</p>
+        <ul class="space-y-2 text-gray-600 mb-6">
+          <li>✓ Personalized plan</li>
+          <li>✓ Multiple treatments</li>
+          <li>✓ Flexible payment</li>
+        </ul>
+        <p class="text-teal-600 font-semibold">Customized pricing</p>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="group bg-gradient-to-br from-cyan-50 to-teal-50 p-8 rounded-2xl hover:shadow-2xl transition border border-cyan-100 hover:border-cyan-300">
+        <div class="text-5xl mb-4">🌊</div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Professional Cleaning</h3>
+        <p class="text-gray-700 mb-4">Deep cleaning and scaling to maintain healthy gums and fresh breath. Preventive care matters.</p>
+        <ul class="space-y-2 text-gray-600 mb-6">
+          <li>✓ Tartar removal</li>
+          <li>✓ Gum health check</li>
+          <li>✓ Prevention focused</li>
+        </ul>
+        <p class="text-cyan-600 font-semibold">Starting from ₹2,500</p>
       </div>
     </div>
-
-    <div class="group relative overflow-hidden rounded-xl shadow-lg border-4 border-cyan-200 hover:border-cyan-500 transition">
-      <img src="4.jpg" class="group-hover:scale-110 transition duration-500 w-full h-64 object-cover">
-      <div class="absolute bottom-0 bg-gradient-to-t from-cyan-900/80 to-transparent text-white w-full p-4">
-        Denture Treatment
-      </div>
-    </div>
-
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="py-20 bg-gradient-to-r from-emerald-100 to-teal-100 text-center px-6">
-  <h3 class="text-4xl font-bold mb-6 text-emerald-900">About Dental Wellness</h3>
-  <p class="max-w-2xl mx-auto text-lg text-gray-800">
-    We provide advanced, painless, and personalized dental care with a focus on comfort,
-    hygiene, and long-term oral health. Every smile we treat is a responsibility we take seriously.
-  </p>
+<!-- Why Choose Us -->
+<section id="why-us" class="py-20 bg-gradient-to-br from-emerald-50 to-teal-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">Why Choose Dr. Namra Kazi?</h2>
+
+    <div class="grid md:grid-cols-2 gap-12">
+      <div class="space-y-8">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-emerald-500 text-white font-bold">1</div>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">10+ Years of Expertise</h3>
+            <p class="text-gray-700">Highly trained and experienced dentist with advanced certifications in restorative and cosmetic dentistry.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-teal-500 text-white font-bold">2</div>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">100% Painless Treatment</h3>
+            <p class="text-gray-700">Latest anesthesia and techniques ensure your comfort. Anxiety-free dental experience guaranteed.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-cyan-500 text-white font-bold">3</div>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">State-of-the-Art Equipment</h3>
+            <p class="text-gray-700">Digital imaging, laser technology, and modern sterilization for best clinical outcomes.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-emerald-500 text-white font-bold">4</div>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Personalized Care Plans</h3>
+            <p class="text-gray-700">Every patient is unique. We create customized treatment plans based on your needs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-2xl p-8 border border-emerald-100">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6">About Dr. Namra Kazi</h3>
+        <p class="text-gray-700 mb-4">Dr. Namra Kazi is a highly skilled and compassionate dentist with over a decade of experience in comprehensive dental care. She believes that every patient deserves the highest standard of treatment delivered with warmth and professionalism.</p>
+        
+        <div class="bg-gradient-to-r from-emerald-50 to-teal-50 p-6 rounded-2xl mb-6 border border-emerald-100">
+          <h4 class="font-bold text-gray-900 mb-3">Qualifications:</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li>✓ BDS (Bachelor of Dental Surgery)</li>
+            <li>✓ Advanced Implantology Certification</li>
+            <li>✓ Cosmetic Dentistry Specialist</li>
+            <li>✓ Endodontic Training</li>
+          </ul>
+        </div>
+
+        <p class="text-gray-700 text-sm">Dr. Kazi is passionate about patient education and preventive care. She stays updated with the latest dental advancements and techniques to provide cutting-edge treatment options.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="py-20 bg-gradient-to-br from-emerald-50 to-cyan-50 text-center px-6">
-  <h3 class="text-4xl font-bold mb-6 text-emerald-900">Visit Our Clinic</h3>
+<!-- Before & After Gallery -->
+<section class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">Real Smile Transformations</h2>
 
-  <p class="mb-4 text-gray-800 font-medium">
-    📍 Shop 3B, Akshay Building,<br>
-    Shivram Seth Amritwar Marg,<br>
-    Behind Worli Mahindra Towers,<br>
-    Lower Parel West, Mumbai - 400018
-  </p>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="group relative overflow-hidden rounded-2xl shadow-xl border-4 border-emerald-100">
+        <img src="5.jpg" alt="Smile transformation before and after" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-emerald-900/80 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition">
+          <div class="text-white">
+            <p class="font-bold text-lg">Teeth Whitening</p>
+            <p class="text-sm">Professional whitening result</p>
+          </div>
+        </div>
+      </div>
 
-  <div class="mt-10 max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-xl border-4 border-emerald-200">
-  <iframe 
-    src="https://www.google.com/maps?q=Dental+Wellness+Lower+Parel&output=embed"
-    width="100%" 
-    height="300" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
-  </iframe>
-</div>
-  
-  <p class="mb-2 text-lg mt-8 font-semibold text-emerald-700">📞 070662 32923</p>
-  <p class="mb-6 font-semibold text-teal-700">🕒 Open till 10 PM</p>
+      <div class="group relative overflow-hidden rounded-2xl shadow-xl border-4 border-teal-100">
+        <img src="3.jpg" alt="Smile correction treatment" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-teal-900/80 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition">
+          <div class="text-white">
+            <p class="font-bold text-lg">Smile Correction</p>
+            <p class="text-sm">Alignment and shaping</p>
+          </div>
+        </div>
+      </div>
 
-  <a href="tel:07066232923"
-     class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition font-semibold">
-     Call Clinic
-  </a>
+      <div class="group relative overflow-hidden rounded-2xl shadow-xl border-4 border-cyan-100">
+        <img src="4.jpg" alt="Denture treatment result" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-cyan-900/80 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition">
+          <div class="text-white">
+            <p class="font-bold text-lg">Denture Treatment</p>
+            <p class="text-sm">Custom dentures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="text-center py-6 bg-gradient-to-r from-emerald-900 to-teal-900 text-emerald-100">
-  © 2026 Dental Wellness, Mumbai
+<!-- Testimonials -->
+<section id="testimonials" class="py-20 bg-gradient-to-br from-emerald-50 to-teal-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">Patient Testimonials</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-emerald-500">
+        <div class="flex mb-4">
+          <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+        </div>
+        <p class="text-gray-700 mb-4">"Dr. Namra is absolutely amazing! My dental anxiety is gone. She made my whitening treatment so comfortable. Highly recommended!"</p>
+        <div>
+          <p class="font-bold text-gray-900">Priya Sharma</p>
+          <p class="text-gray-600 text-sm">Mumbai</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-teal-500">
+        <div class="flex mb-4">
+          <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+        </div>
+        <p class="text-gray-700 mb-4">"My implant treatment was painless! The clinic is very clean and the staff is so helpful. Best investment for my smile."</p>
+        <div>
+          <p class="font-bold text-gray-900">Rajesh Kumar</p>
+          <p class="text-gray-600 text-sm">Lower Parel</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-cyan-500">
+        <div class="flex mb-4">
+          <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+        </div>
+        <p class="text-gray-700 mb-4">"Root canal treatment was nothing like I feared. Dr. Kazi's expertise and warm demeanor made all the difference. Thank you!"</p>
+        <div>
+          <p class="font-bold text-gray-900">Anjali Mehta</p>
+          <p class="text-gray-600 text-sm">Worli</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Appointment Booking Section -->
+<section id="book-appointment" class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Book Your Appointment</h2>
+      <p class="text-xl text-gray-600">Schedule your visit with Dr. Namra Kazi. You'll receive a confirmation via email, SMS, and WhatsApp.</p>
+    </div>
+
+    <div class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-3xl shadow-2xl p-8 md:p-12 border border-emerald-200">
+      <form id="appointmentForm" class="space-y-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Name -->
+          <div>
+            <label for="name" class="block text-gray-900 font-semibold mb-2">Full Name *</label>
+            <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white" placeholder="Your full name">
+          </div>
+
+          <!-- Phone -->
+          <div>
+            <label for="phone" class="block text-gray-900 font-semibold mb-2">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white" placeholder="10-digit mobile number" pattern="[0-9]{10}">
+          </div>
+
+          <!-- Email -->
+          <div>
+            <label for="email" class="block text-gray-900 font-semibold mb-2">Email Address *</label>
+            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white" placeholder="your.email@example.com">
+          </div>
+
+          <!-- Service -->
+          <div>
+            <label for="service" class="block text-gray-900 font-semibold mb-2">Service Required *</label>
+            <select id="service" name="service" required class="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white">
+              <option value="">Select a service</option>
+              <option value="Professional Whitening">Professional Whitening</option>
+              <option value="Dental Implants">Dental Implants</option>
+              <option value="Root Canal Treatment">Root Canal Treatment</option>
+              <option value="Dentures & Bridges">Dentures & Bridges</option>
+              <option value="Smile Makeover">Smile Makeover</option>
+              <option value="Professional Cleaning">Professional Cleaning</option>
+              <option value="General Checkup">General Checkup</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <!-- Date -->
+          <div>
+            <label for="date" class="block text-gray-900 font-semibold mb-2">Preferred Date *</label>
+            <input type="date" id="date" name="date" required class="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white">
+          </div>
+
+          <!-- Time -->
+          <div>
+            <label for="time" class="block text-gray-900 font-semibold mb-2">Preferred Time *</label>
+            <select id="time" name="time" required class="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white">
+              <option value="">Select time</option>
+              <option value="09:00 AM">09:00 AM</option>
+              <option value="09:30 AM">09:30 AM</option>
+              <option value="10:00 AM">10:00 AM</option>
+              <option value="10:30 AM">10:30 AM</option>
+              <option value="11:00 AM">11:00 AM</option>
+              <option value="02:00 PM">02:00 PM</option>
+              <option value="02:30 PM">02:30 PM</option>
+              <option value="03:00 PM">03:00 PM</option>
+              <option value="04:00 PM">04:00 PM</option>
+              <option value="05:00 PM">05:00 PM</option>
+              <option value="06:00 PM">06:00 PM</option>
+              <option value="07:00 PM">07:00 PM</option>
+              <option value="08:00 PM">08:00 PM</option>
+              <option value="09:00 PM">09:00 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Message -->
+        <div>
+          <label for="message" class="block text-gray-900 font-semibold mb-2">Any Additional Concerns?</label>
+          <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white" placeholder="Tell us about any specific concerns or allergies..."></textarea>
+        </div>
+
+        <!-- Notification Preference -->
+        <div class="bg-white rounded-lg p-4 border border-emerald-200">
+          <p class="text-gray-900 font-semibold mb-3">How would you like us to confirm? *</p>
+          <div class="space-y-3">
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="notifyEmail" name="notifyEmail" checked class="w-5 h-5 text-emerald-500 rounded">
+              <span class="text-gray-700">📧 Email Confirmation</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="notifySMS" name="notifySMS" checked class="w-5 h-5 text-emerald-500 rounded">
+              <span class="text-gray-700">📱 SMS Confirmation</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="notifyWhatsApp" name="notifyWhatsApp" checked class="w-5 h-5 text-emerald-500 rounded">
+              <span class="text-gray-700">💬 WhatsApp Message</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Terms -->
+        <label class="flex items-start gap-3 cursor-pointer">
+          <input type="checkbox" id="terms" name="terms" required class="w-5 h-5 text-emerald-500 rounded mt-1">
+          <span class="text-gray-700">I agree to the appointment booking terms and privacy policy</span>
+        </label>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w-full bg-gradient-to-r from-emerald-500 to-teal-500 text-white py-4 rounded-lg font-bold text-lg hover:shadow-lg transition">
+          Confirm Appointment
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="py-20 bg-gray-50">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">Frequently Asked Questions</h2>
+
+    <div class="space-y-4">
+      <div class="bg-white rounded-lg shadow-md border-l-4 border-emerald-500">
+        <button class="w-full p-6 text-left flex justify-between items-center faq-toggle" onclick="toggleFAQ(this)">
+          <span class="font-bold text-gray-900">Is dental treatment painful?</span>
+          <span class="text-2xl text-emerald-500">+</span>
+        </button>
+        <div class="faq-content hidden px-6 pb-6 text-gray-700">
+          <p>No, absolutely not! Dr. Namra Kazi uses the latest anesthesia techniques and pain management strategies. You'll be comfortable throughout your treatment. Most patients say it's a relaxing experience.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md border-l-4 border-teal-500">
+        <button class="w-full p-6 text-left flex justify-between items-center faq-toggle" onclick="toggleFAQ(this)">
+          <span class="font-bold text-gray-900">How long do results last?</span>
+          <span class="text-2xl text-teal-500">+</span>
+        </button>
+        <div class="faq-content hidden px-6 pb-6 text-gray-700">
+          <p>Results vary by treatment. Teeth whitening lasts 6-12 months with proper care. Dental implants can last 20+ years. Dentures need replacement after 5-8 years. We'll discuss longevity for your specific treatment.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md border-l-4 border-cyan-500">
+        <button class="w-full p-6 text-left flex justify-between items-center faq-toggle" onclick="toggleFAQ(this)">
+          <span class="font-bold text-gray-900">Do you offer payment plans?</span>
+          <span class="text-2xl text-cyan-500">+</span>
+        </button>
+        <div class="faq-content hidden px-6 pb-6 text-gray-700">
+          <p>Yes! We understand dental treatment can be a significant investment. We offer flexible payment plans and work with major health insurance providers. Call us to discuss options that work for you.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md border-l-4 border-emerald-500">
+        <button class="w-full p-6 text-left flex justify-between items-center faq-toggle" onclick="toggleFAQ(this)">
+          <span class="font-bold text-gray-900">What if I have dental anxiety?</span>
+          <span class="text-2xl text-emerald-500">+</span>
+        </button>
+        <div class="faq-content hidden px-6 pb-6 text-gray-700">
+          <p>Many patients come to us with anxiety! Dr. Kazi takes time to understand your concerns and creates a comfortable environment. We can discuss sedation options for complex procedures. Your comfort is our priority.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md border-l-4 border-teal-500">
+        <button class="w-full p-6 text-left flex justify-between items-center faq-toggle" onclick="toggleFAQ(this)">
+          <span class="font-bold text-gray-900">How often should I visit for checkups?</span>
+          <span class="text-2xl text-teal-500">+</span>
+        </button>
+        <div class="faq-content hidden px-6 pb-6 text-gray-700">
+          <p>We recommend visiting every 6 months for routine checkups and cleaning. However, if you have specific dental issues, we may recommend more frequent visits. Dr. Kazi will create a personalized care schedule for you.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md border-l-4 border-cyan-500">
+        <button class="w-full p-6 text-left flex justify-between items-center faq-toggle" onclick="toggleFAQ(this)">
+          <span class="font-bold text-gray-900">Is the clinic hygienic and safe?</span>
+          <span class="text-2xl text-cyan-500">+</span>
+        </button>
+        <div class="faq-content hidden px-6 pb-6 text-gray-700">
+          <p>Absolutely! We maintain the highest sterilization standards with ISO certification. All equipment is sterilized using advanced autoclave technology. We follow international safety protocols to ensure your safety.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">Get In Touch</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Address -->
+      <div class="text-center">
+        <div class="text-4xl mb-4">📍</div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Visit Us</h3>
+        <p class="text-gray-700">
+          Shop 3B, Akshay Building<br>
+          Shivram Seth Amritwar Marg<br>
+          Behind Worli Mahindra Towers<br>
+          Lower Parel West, Mumbai - 400018
+        </p>
+      </div>
+
+      <!-- Phone -->
+      <div class="text-center">
+        <div class="text-4xl mb-4">📞</div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Call Us</h3>
+        <p class="text-gray-700">
+          <a href="tel:07066232923" class="text-emerald-600 font-semibold hover:underline">7066232923</a><br>
+          <span class="text-sm">Available 9 AM - 10 PM</span>
+        </p>
+      </div>
+
+      <!-- Email -->
+      <div class="text-center">
+        <div class="text-4xl mb-4">📧</div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Email Us</h3>
+        <p class="text-gray-700">
+          <a href="mailto:info@dentalwellness.in" class="text-emerald-600 font-semibold hover:underline">info@dentalwellness.in</a><br>
+          <span class="text-sm">We reply within 2 hours</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="mt-12 rounded-2xl overflow-hidden shadow-xl border-4 border-emerald-100">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.1234567890!2d72.8265!3d19.0145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf271234567%3A0x1234567890abcdef!2sLower%20Parel%2C%20Mumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1234567890123" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-r from-emerald-900 to-teal-900 text-emerald-100 py-12">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="text-xl font-bold text-white mb-4">Dental Wellness</h3>
+        <p class="text-emerald-200">Quality dental care with a personal touch. Your smile is our mission.</p>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-4">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#services" class="hover:text-white transition">Services</a></li>
+          <li><a href="#why-us" class="hover:text-white transition">About</a></li>
+          <li><a href="#testimonials" class="hover:text-white transition">Testimonials</a></li>
+          <li><a href="#book-appointment" class="hover:text-white transition">Book Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-white mb-4">Follow Us</h4>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-white transition">Facebook</a>
+          <a href="#" class="hover:text-white transition">Instagram</a>
+          <a href="#" class="hover:text-white transition">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-emerald-700 pt-8 text-center text-emerald-200">
+      <p>&copy; 2026 Dental Wellness. All rights reserved. | <a href="#" class="hover:text-white">Privacy Policy</a> | <a href="#" class="hover:text-white">Terms of Service</a></p>
+    </div>
+  </div>
 </footer>
 
-<!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/917066232923?text=Hello%20Dental%20Wellness%2C%20I%20want%20to%20book%20an%20appointment"
-   target="_blank"
-   class="fixed bottom-6 right-6 bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-5 py-3 rounded-full shadow-lg hover:shadow-2xl hover:scale-110 transition flex items-center space-x-2 hover:from-emerald-600 hover:to-teal-600">
-
-  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/917066232923?text=Hi%20Dr.%20Namra%20Kazi,%20I%20would%20like%20to%20book%20an%20appointment" target="_blank" class="fixed bottom-6 right-6 bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-3xl hover:scale-110 transition flex items-center space-x-2 z-40 font-semibold">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
     <path d="M20.52 3.48A11.82 11.82 0 0012.01 0C5.37 0 .01 5.36 0 12c0 2.11.55 4.17 1.6 5.99L0 24l6.2-1.63A11.9 11.9 0 0012.01 24C18.65 24 24 18.64 24 12a11.8 11.8 0 00-3.48-8.52z"/>
   </svg>
-
-  <span class="hidden md:inline">WhatsApp</span>
+  <span class="hidden sm:inline">WhatsApp Us</span>
 </a>
+
+<!-- Success Modal -->
+<div id="successModal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+  <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full text-center">
+    <div class="text-5xl mb-4">✅</div>
+    <h3 class="text-2xl font-bold text-gray-900 mb-2">Appointment Confirmed!</h3>
+    <p class="text-gray-700 mb-6">You'll receive a confirmation via:</p>
+    <div class="space-y-2 mb-6 text-left">
+      <p id="confirmEmail" class="text-gray-700">📧 Email</p>
+      <p id="confirmSMS" class="text-gray-700">📱 SMS</p>
+      <p id="confirmWhatsApp" class="text-gray-700">💬 WhatsApp</p>
+    </div>
+    <p class="text-gray-600 mb-6">We'll see you on <strong id="confirmDate"></strong> at <strong id="confirmTime"></strong></p>
+    <button onclick="closeModal()" class="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-6 py-3 rounded-full font-semibold w-full">Done</button>
+  </div>
+</div>
+
+<script>
+// Mobile Menu Toggle
+function toggleMobileMenu() {
+  const menu = document.getElementById('mobileMenu');
+  menu.classList.toggle('hidden');
+}
+
+// Close mobile menu when link is clicked
+document.querySelectorAll('#mobileMenu a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('mobileMenu').classList.add('hidden');
+  });
+});
+
+// FAQ Toggle
+function toggleFAQ(button) {
+  const content = button.nextElementSibling;
+  const icon = button.querySelector('.text-2xl');
+  
+  document.querySelectorAll('.faq-content').forEach(el => {
+    if (el !== content) el.classList.add('hidden');
+  });
+  
+  document.querySelectorAll('.faq-toggle .text-2xl').forEach(el => {
+    if (el !== icon) el.textContent = '+';
+  });
+  
+  content.classList.toggle('hidden');
+  icon.textContent = content.classList.contains('hidden') ? '+' : '−';
+}
+
+// Set minimum date to today
+document.getElementById('date').min = new Date().toISOString().split('T')[0];
+
+// Form Submission
+document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  const name = document.getElementById('name').value;
+  const phone = document.getElementById('phone').value;
+  const email = document.getElementById('email').value;
+  const service = document.getElementById('service').value;
+  const date = document.getElementById('date').value;
+  const time = document.getElementById('time').value;
+  const message = document.getElementById('message').value;
+  const notifyEmail = document.getElementById('notifyEmail').checked;
+  const notifySMS = document.getElementById('notifySMS').checked;
+  const notifyWhatsApp = document.getElementById('notifyWhatsApp').checked;
+
+  // Frontend Notification via Email (using mailto)
+  if (notifyEmail) {
+    const emailBody = `Dear ${name},\n\nYour appointment has been confirmed with Dr. Namra Kazi.\n\nAppointment Details:\nService: ${service}\nDate: ${date}\nTime: ${time}\nPhone: ${phone}\n\nAdditional Notes: ${message}\n\nPlease arrive 10 minutes early. If you need to reschedule, please call us at 7066232923.\n\nBest regards,\nDental Wellness Team`;
+    
+    window.location.href = `mailto:${email}?subject=Appointment Confirmation - Dental Wellness&body=${encodeURIComponent(emailBody)}`;
+  }
+
+  // Frontend Notification via SMS (using WhatsApp as SMS alternative)
+  if (notifySMS || notifyWhatsApp) {
+    const whatsappMessage = `Hi ${name}, Your appointment with Dr. Namra Kazi is confirmed!\n\nService: ${service}\nDate: ${date}\nTime: ${time}\n\nClinic: 7066232923\nLocation: Lower Parel, Mumbai`;
+    
+    const whatsappUrl = `https://wa.me/91${phone}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, '_blank');
+  }
+
+  // Show Success Modal
+  document.getElementById('confirmEmail').textContent = notifyEmail ? '✓ 📧 Email' : '✗ 📧 Email';
+  document.getElementById('confirmSMS').textContent = notifySMS ? '✓ 📱 SMS' : '✗ 📱 SMS';
+  document.getElementById('confirmWhatsApp').textContent = notifyWhatsApp ? '✓ 💬 WhatsApp' : '✗ 💬 WhatsApp';
+  document.getElementById('confirmDate').textContent = new Date(date).toLocaleDateString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  document.getElementById('confirmTime').textContent = time;
+  
+  document.getElementById('successModal').classList.remove('hidden');
+
+  // Reset Form
+  this.reset();
+});
+
+function closeModal() {
+  document.getElementById('successModal').classList.add('hidden');
+}
+
+// Smooth Scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// Close modal when clicking outside
+document.getElementById('successModal').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeModal();
+  }
+});
+</script>
 
 </body>
 </html>
